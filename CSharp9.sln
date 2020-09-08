@@ -17,29 +17,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-NullValidation", "06-Nul
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Records", "07-Records", "{0D10A3D3-2CE6-4FB3-9A31-18F8223BA043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelPrograms", "TopLevelPrograms\TopLevelPrograms.csproj", "{A19FB64C-5A8C-4E81-A17B-88B3485EAC78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelPrograms", "TopLevelPrograms\TopLevelPrograms.csproj", "{A19FB64C-5A8C-4E81-A17B-88B3485EAC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitOnlyProperties", "InitOnlyProperties\InitOnlyProperties.csproj", "{139614B8-A81C-451D-A22C-8DFE06730FC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitOnlyProperties", "InitOnlyProperties\InitOnlyProperties.csproj", "{139614B8-A81C-451D-A22C-8DFE06730FC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationalPatterns", "RelationalPatterns\RelationalPatterns.csproj", "{55D79B22-690C-4567-8FFD-D757BBC7C8D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelationalPatterns", "RelationalPatterns\RelationalPatterns.csproj", "{55D79B22-690C-4567-8FFD-D757BBC7C8D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalPatterns", "LogicalPatterns\LogicalPatterns.csproj", "{D539229F-FA3E-419A-99AA-F480A5B7E624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalPatterns", "LogicalPatterns\LogicalPatterns.csproj", "{D539229F-FA3E-419A-99AA-F480A5B7E624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNotOperator", "IsNotOperator\IsNotOperator.csproj", "{EDB5EBA3-23EE-47A6-9195-02EBD398AAB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsNotOperator", "IsNotOperator\IsNotOperator.csproj", "{EDB5EBA3-23EE-47A6-9195-02EBD398AAB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullValidation", "NullValidation\NullValidation.csproj", "{363402DB-4C11-49CB-9AF2-8263A6742EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullValidation", "NullValidation\NullValidation.csproj", "{363402DB-4C11-49CB-9AF2-8263A6742EEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{D10AE1D9-991A-4E3C-9F64-5DB8354FB39D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Records", "Records\Records.csproj", "{D10AE1D9-991A-4E3C-9F64-5DB8354FB39D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-WithPatterns", "08-WithPatterns", "{0478C6A1-136E-4FB1-A4FA-694C4DAAA64D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithPatterns", "WithPatterns\WithPatterns.csproj", "{3ABD539D-91EC-4464-8852-5DBA03D6E6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithPatterns", "WithPatterns\WithPatterns.csproj", "{3ABD539D-91EC-4464-8852-5DBA03D6E6CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-RecordsSimple", "09-RecordsSimple", "{0AA699BD-0DBC-429C-9AC1-B9DBBC0E8FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordsSimple", "RecordsSimple\RecordsSimple.csproj", "{B04FB19C-BA5C-4D2F-8F31-1F21920854D0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-", "10-", "{5981ED75-9B69-4D37-8F08-790D22976F50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordsSimple", "RecordsSimple\RecordsSimple.csproj", "{B04FB19C-BA5C-4D2F-8F31-1F21920854D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

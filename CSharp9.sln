@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30428.66
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Top Level Programs", "01 - Top Level Programs", "{9127E77B-CEE3-4053-8008-810C47CFB300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Init-only Properties", "02 - Init-only Properties", "{FC9BDE0B-41BA-4174-AD9A-89BD9E321B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelPrograms", "TopLevelPrograms\TopLevelPrograms.csproj", "{24055C56-2E88-498A-9CE2-D2D600578A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitOnlyProperties", "Init-onlyProperties\InitOnlyProperties.csproj", "{EF46A331-5D0C-4BB7-86CD-45F0B6AF9433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Relational Patterns", "03 - Relational Patterns", "{1D8B9727-0006-4C7E-BE97-D95E7EC75CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationalPatterns", "RelationalPatterns\RelationalPatterns.csproj", "{67AB68B6-C3DB-46B1-8383-6641AC5C8A41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Null Validation", "04 - Null Validation", "{6AE98A5B-6750-45C9-888B-66239C0E5347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullValidation", "NullValidation\NullValidation.csproj", "{3439B8AF-847E-499E-9A6A-6595853A9D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24055C56-2E88-498A-9CE2-D2D600578A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24055C56-2E88-498A-9CE2-D2D600578A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24055C56-2E88-498A-9CE2-D2D600578A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24055C56-2E88-498A-9CE2-D2D600578A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF46A331-5D0C-4BB7-86CD-45F0B6AF9433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF46A331-5D0C-4BB7-86CD-45F0B6AF9433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF46A331-5D0C-4BB7-86CD-45F0B6AF9433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF46A331-5D0C-4BB7-86CD-45F0B6AF9433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AB68B6-C3DB-46B1-8383-6641AC5C8A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AB68B6-C3DB-46B1-8383-6641AC5C8A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AB68B6-C3DB-46B1-8383-6641AC5C8A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AB68B6-C3DB-46B1-8383-6641AC5C8A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3439B8AF-847E-499E-9A6A-6595853A9D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3439B8AF-847E-499E-9A6A-6595853A9D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3439B8AF-847E-499E-9A6A-6595853A9D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3439B8AF-847E-499E-9A6A-6595853A9D49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24055C56-2E88-498A-9CE2-D2D600578A56} = {9127E77B-CEE3-4053-8008-810C47CFB300}
+		{EF46A331-5D0C-4BB7-86CD-45F0B6AF9433} = {FC9BDE0B-41BA-4174-AD9A-89BD9E321B20}
+		{67AB68B6-C3DB-46B1-8383-6641AC5C8A41} = {1D8B9727-0006-4C7E-BE97-D95E7EC75CC9}
+		{3439B8AF-847E-499E-9A6A-6595853A9D49} = {6AE98A5B-6750-45C9-888B-66239C0E5347}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBFB55FA-513B-471D-AF54-7D8E38AA24E8}
+	EndGlobalSection
+EndGlobal

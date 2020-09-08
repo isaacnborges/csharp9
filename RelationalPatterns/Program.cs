@@ -3,22 +3,6 @@ using System.Collections.Generic;
 
 namespace RelationalPatterns
 {
-    public enum ClassificacaoIMC
-    {
-        Magreza,
-        Normal,
-        Sobrepeso,
-        Obesidade,
-        ObesidadeGrave
-    }
-
-    public class MedidasPessoa
-    {
-        public double Peso { get; set; }
-        public double Altura { get; set; }
-        public double IMC => Peso / (Altura * Altura);
-    }
-
     class Program
     {
         public static ClassificacaoIMC AnalisarPeso(double imc) =>
@@ -46,5 +30,21 @@ namespace RelationalPatterns
                 Console.WriteLine($"Peso: {pessoa.Peso} | Altura: {pessoa.Altura} | " +
                     $"Estado: {AnalisarPeso(pessoa.IMC)}");
         }
+    }
+
+    public enum ClassificacaoIMC
+    {
+        Magreza,
+        Normal,
+        Sobrepeso,
+        Obesidade,
+        ObesidadeGrave
+    }
+
+    public class MedidasPessoa
+    {
+        public double Peso { get; set; }
+        public double Altura { get; set; }
+        public double IMC => Peso / (Altura * Altura);
     }
 }

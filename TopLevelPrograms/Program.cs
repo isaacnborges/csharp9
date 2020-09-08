@@ -1,6 +1,6 @@
 ﻿//using System;
 
-//namespace ConsoleApp1
+//namespace TopLevelPrograms
 //{
 //    class Program
 //    {
@@ -13,7 +13,6 @@
 //        }
 //    }
 //}
-
 
 using System;
 

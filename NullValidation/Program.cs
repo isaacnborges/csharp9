@@ -10,7 +10,7 @@ namespace NullValidation
         {
             Console.WriteLine("Hello World!");
 
-            string name = null;
+            //string name = null;
             //OtherManipulateString(Name);
         }
 
@@ -23,5 +23,5 @@ namespace NullValidation
         //{
         //    return s + " is a Valid string";
         //}
-    }    
+    }
 }

@@ -10,13 +10,13 @@ namespace NullValidation
         {
             Console.WriteLine("Hello World!");
 
-            //string name = null;
+            //ManipulateString(Name);
             //OtherManipulateString(Name);
         }
 
-        //private string Test(string text!)
+        //private string ManipulateString(string text!)
         //{
-        //    return text;
+        //    return s + " is a Valid string";
         //}
 
         //public static string OtherManipulateString(string s!!)

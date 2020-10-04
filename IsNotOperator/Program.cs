@@ -16,7 +16,7 @@ namespace IsNotOperator
 
             if (!(pessoa is null))
             {
-                Console.WriteLine("1 opção");
+                Console.WriteLine("2 opção");
                 Console.WriteLine(pessoa.ToString());
                 Console.WriteLine();
             }

@@ -24,9 +24,9 @@ namespace Records
             var personData2 = new PersonRecord("Isaac", "Borges");
 
             if (personData1.Equals(personData2))
-                Console.WriteLine("PersonData equals");
+                Console.WriteLine("PersonRecord equals");
             else
-                Console.WriteLine("PersonData not equals");
+                Console.WriteLine("PersonRecord not equals");
 
             Console.ReadLine();
         }

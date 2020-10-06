@@ -8,6 +8,7 @@ namespace NewExpressions
     {
         static void Main(string[] args)
         {
+            //Atual
             var person1 = new Person("Isaac", "Borges");
             var person2 = new Person("Jose", "Pereira");
             var persons = new List<Person> { person1, person2 };
@@ -16,6 +17,7 @@ namespace NewExpressions
 
             Console.WriteLine();
 
+            //Novo
             Person person11 = new ("Maria", "Silva");
             Person person22 = new ("Marcia", "Costa");
             List<Person> personsS = new() { person11, person22 };

@@ -19,6 +19,9 @@ namespace WithPatterns
             Console.WriteLine($"Person3: {person4}");
 
             Console.ReadLine();
+
+            //var ps = new PersonClass("Nome", "sobrenome");
+            //var ps2 = ps with { LastName = "teste" };
         }
     }
 
@@ -28,6 +31,23 @@ namespace WithPatterns
         public string LastName { get; init; }
 
         public Person(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName}";
+        }
+    }
+
+    public class PersonClass
+    {
+        public string FirstName { get; init; }
+        public string LastName { get; init; }
+
+        public PersonClass(string firstName, string lastName)
         {
             FirstName = firstName;
             LastName = lastName;
